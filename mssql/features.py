@@ -28,6 +28,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     supports_ignore_conflicts = False
     supports_index_on_text_field = False
     supports_json_field = False
+    supports_order_by_nulls_modifier = False
     supports_paramstyle_pyformat = False
     supports_regex_backreferencing = True
     supports_sequence_reset = False
