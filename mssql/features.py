@@ -21,6 +21,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     has_select_for_update_skip_locked = True
     ignores_table_name_case = True
     ignores_quoted_identifier_case = True
+    order_by_nulls_first = False
     requires_literal_defaults = True
     requires_sqlparse_for_splitting = False
     supports_boolean_expr_in_select_clause = False
